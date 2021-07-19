@@ -1,0 +1,25 @@
+{
+  "name": "vite-typescript-type-bug",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An example repo to demonstrate a bug with importing typescript types",
+  "author": {
+    "name": "The Wikidata team"
+  },
+  "scripts": {
+    "vite-serve": "vite"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "vue": "2.6.14"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.28",
+    "@vitejs/plugin-vue": "^1.2.4",
+    "typescript": "^3.9.9",
+    "vite": "^2.4.1",
+    "vite-plugin-env-compatible": "^1.0.0",
+    "vite-plugin-vue2": "^1.7.2",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
